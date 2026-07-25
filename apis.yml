@@ -1,8 +1,26 @@
 aid: complexpolygon
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/complexpolygon.png
 name: complexpolygon
-description: complexpolygon is a company surfaced as a portfolio company of slow-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Complex Polygon is listed by name only on the Slow Ventures portfolio page
+  (https://slow.co/portfolio/) with a link to complexpolygon.com and no description or category.
+  Enrichment on 2026-07-20 found no live company presence: complexpolygon.com is delegated to
+  Gname''s expired-domain nameservers (expire1/expire2.gname-dns.com), fails TLS entirely, and
+  returns HTTP 503 with a registrar parking script over plain HTTP. The Internet Archive shows the
+  domain was already a parked page in February 2025 and, before that, an SEO essay-mill content
+  farm rather than a startup site. No GitHub organization or repositories, no npm, PyPI or
+  crates.io packages, and no developer, documentation or API surface of any kind could be found.
+  This record is retained as an unverified venture-portfolio lead with no API surface to catalog.'
 url: https://raw.githubusercontent.com/api-evangelist/complexpolygon/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +28,20 @@ x-backed-by:
 - slow-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: no-web-presence
+x-status-detail: 'Domain parked on registrar expired-domain nameservers; HTTPS fails the TLS
+  handshake and HTTP returns 503. No API, documentation, packages or source repositories located.'
+x-verified: '2026-07-20'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Venture Backed
+- Portfolio Lead
+- Unverified
+- No API Surface
+- Slow Ventures
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +51,8 @@ maintainers:
 common:
 - type: Website
   url: https://complexpolygon.com
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
