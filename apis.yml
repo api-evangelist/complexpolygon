@@ -32,7 +32,7 @@ x-status: no-web-presence
 x-status-detail: 'Domain parked on registrar expired-domain nameservers; HTTPS fails the TLS
   handshake and HTTP returns 503. No API, documentation, packages or source repositories located.'
 x-verified: '2026-07-20'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
