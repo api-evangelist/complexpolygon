@@ -64,6 +64,36 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-complexpolygon is a company surfaced as a portfolio company of slow-ventures and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+> **No live API surface.** Nothing from this company could be reached the last time it was checked: the site is offline, parked or unreachable, or no public API was found. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: slow-ventures — https://complexpolygon.com
+**Status:** no-web-presence
+
+Complex Polygon is listed by name only on the Slow Ventures portfolio page (https://slow.co/portfolio/) with a link to complexpolygon.com and no description or category. Enrichment on 2026-07-20 found no live company presence: complexpolygon.com is delegated to Gname's expired-domain nameservers (expire1/expire2.gname-dns.com), fails TLS entirely, and returns HTTP 503 with a registrar parking script over plain HTTP. The Internet Archive shows the domain was already a parked page in February 2025 and, before that, an SEO essay-mill content farm rather than a startup site. No GitHub organization or repositories, no npm, PyPI or crates.io packages, and no developer, documentation or API surface of any kind could be found. This record is retained as an unverified venture-portfolio lead with no API surface to catalog.
+
+**Areas:** Company · Unverified · Slow Ventures
+
+## complexpolygon on APIs.io (historical record)
+
+Everything profiled for complexpolygon is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/complexpolygon/](https://apis.io/providers/complexpolygon/)** — or go straight to one of the APIs or properties below.
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://complexpolygon.com)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no live api surface, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for complexpolygon: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/complexpolygon/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
